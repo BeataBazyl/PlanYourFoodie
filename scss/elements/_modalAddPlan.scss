@@ -1,0 +1,64 @@
+
+.modal___header2 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid $color-table;
+  padding-bottom: 0.3rem;
+  h2 {
+    color: $color-accent;
+    text-transform: uppercase;
+    font-family: $font-text;
+    font-size: 1.5rem;
+  }
+}
+
+
+.modalBtn2 {
+  background: $color-accent;
+  padding: 0.45rem 0.75rem;
+  color: $color-white;
+  border: none;
+  font-weight: bold;
+}
+
+.plan_name___input_wrapper, .plan_description___input_wrapper {
+  display: flex;
+  justify-content: space-between;
+  p {
+    color: $color-table;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    width: 25%;
+    text-align: left;
+  }
+}
+
+.plan__input {
+  width: 75%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  margin-right: 5rem;
+}
+
+.containerFlex {
+  display: flex;
+}
+
+.week_number___input_wrapper {
+  display: flex;
+  justify-content: left;
+  p {
+    color: $color-table;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: left;
+  }
+}
+
+.week__input {
+  width: 30px;
+  text-align: center;
+  margin-left: 3rem;
+}

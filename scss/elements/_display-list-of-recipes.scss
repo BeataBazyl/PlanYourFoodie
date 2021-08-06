@@ -1,0 +1,123 @@
+@import "development/scss/settings/colors";
+
+
+.temporary__display__none2 {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.table_container {
+  padding: 2rem;
+  background-color: $color-background;
+  border: 2px solid $color-table;
+  margin: 2rem;
+}
+
+.list_of_recipes_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid $color-table;
+}
+
+.list_of_recipes_wrapper h1 {
+  color: $color-accent;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.add_recipe_img {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.edit_recipe_img, .delete_recipe_img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.display_recipes_table {
+  width: 100%;
+  max-height: 500px;
+  background-color: $color-background;
+  text-align: left;
+
+  overflow-y: visible;    /* Trigger vertical scroll    */
+  overflow-x: hidden;  /* Hide the horizontal scroll */
+  height: 500px;
+}
+
+.display_recipes_table thead {
+  padding: 2rem;
+  width: 5%;
+  color: $color-nav;
+}
+
+.display_recipes_table thead tr th {
+  padding: 2rem;
+  width: 5%;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.display_recipes_table tr th {
+  border-bottom: 2px solid $color-table;
+}
+
+body > div > section > section.display_recipes > div > table > thead > tr > th:nth-child(2) {
+  width: 25%;
+}
+
+body > div > section > section.display_recipes > div > table > thead > tr > th:nth-child(3) {
+  width: 60%;
+}
+
+body > div > section > section.display_recipes > div > table > thead > tr > th:nth-child(4) {
+  width: 10%;
+}
+
+.display_recipes_table > tbody > tr td {
+  font-size: 1rem;
+  font-weight:400;
+  color: $color-table;
+  border-bottom: 2px solid $color-table;
+  padding: 1rem;
+}
+
+body > div > section > section.display_recipes > div > table > tbody > tr:nth-child(1) > td:nth-child(1) {
+  padding: 1rem;
+  width: 5%;
+}
+
+body > div > section > section.display_recipes > div > table > tbody > tr:nth-child(1) > td:nth-child(2) {
+  padding: 1rem;
+  width: 5%;
+}
+
+body > div > section > section.display_recipes > div > table > tbody > tr:nth-child(1) > td:nth-child(3) {
+  padding: 1rem;
+  width: 60%;
+}
+
+body > div > section > section.display_recipes > div > table > tbody > tr:nth-child(1) > td:nth-child(4) {
+  padding: 1rem;
+  width: 10%;
+}
+
+.scroll {
+  display: block;
+  tbody {     /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: hidden;  /* Hide the horizontal scroll */
+    height: 500px;
+  }
+}
+
+tr > td:last-of-type {
+  width: 4rem;
+}

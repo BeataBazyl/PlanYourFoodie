@@ -1,0 +1,40 @@
+
+.newsletter_form {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  background-color: #4a4a49;
+  min-height: 8rem;
+  height: 40vh;
+  width: 100vw;
+}
+
+.newsletter_form h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+.newsletter_form div input {
+  min-height: 2rem;
+  font-size: 1.2rem;
+  min-width: 8rem;
+}
+
+.newsletter_form div button {
+  background-color: #FF6600;
+  font-size: 1.2rem;
+  color: white;
+  margin-left: -0.3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0.38rem;
+  padding-top: 0.38rem;
+  min-width: 5rem;
+  min-height: 2rem;
+  border: none;
+}
+
+//.temporary__display__none {
+//  display: none;
+//}

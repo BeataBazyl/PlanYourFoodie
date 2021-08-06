@@ -1,0 +1,106 @@
+@import "../settings/colors";
+
+.main___dashboard {
+  font-weight: 600;
+  background: transparent;
+}
+
+.two_wrappers {
+  margin: 2rem;
+}
+
+.up___wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget___wrapper {
+  display: flex;
+  width: 40%;
+}
+
+p {
+  padding: 0.5rem;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background: $color-background;
+  border: 2px dotted $color-success;
+  margin: 0.5rem;
+  color: $color-success;
+  text-align: center;
+}
+
+.plus-square {
+  height: 60px;
+  width: 60px;
+  filter: invert(46%) sepia(49%) saturate(370%) hue-rotate(96deg) brightness(91%) contrast(88%);
+  margin-top: 20px;
+}
+
+.notifications___wraper {
+  width: 60%;
+}
+
+.notifications {
+  background: $color-background;
+  border: 2px dotted;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.recipies___numbers {
+  color: $color-info;
+}
+
+.add___plan___reminder {
+  color: $color-warning;
+}
+
+.good___see {
+  color: $color-success;
+}
+
+.close_button {
+  width: 20px;
+  height: 20px;
+  padding: 0.2rem;
+}
+
+.recipies___numbers .close_button  {
+  filter: invert(56%) sepia(45%) saturate(1707%) hue-rotate(177deg) brightness(88%) contrast(93%);
+}
+
+.add___plan___reminder .close_button {
+  filter: invert(84%) sepia(8%) saturate(6335%) hue-rotate(328deg) brightness(103%) contrast(102%);
+}
+
+.good___see .close_button {
+  filter: invert(47%) sepia(17%) saturate(940%) hue-rotate(96deg) brightness(96%) contrast(92%);
+}
+
+.icone {
+  width: 40px;
+  height: 40px;
+  padding-right:0.5rem;
+}
+
+.icone___i {
+  filter: invert(56%) sepia(45%) saturate(1707%) hue-rotate(177deg) brightness(88%) contrast(93%);
+}
+
+.icone___exclamation {
+  filter: invert(84%) sepia(8%) saturate(6335%) hue-rotate(328deg) brightness(103%) contrast(102%);
+}
+
+.icone___checked {
+  filter: invert(47%) sepia(17%) saturate(940%) hue-rotate(96deg) brightness(96%) contrast(92%);
+}
+
+
+//.temporary__display__none2 {
+//  display: none ;
+//}

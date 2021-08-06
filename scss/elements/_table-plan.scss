@@ -1,0 +1,71 @@
+@import "../settings/colors";
+
+.table___plan {
+  margin-top: 1rem;
+}
+
+table.blueTable {
+  background-color: $color-background;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  padding-left: 0.5rem;
+}
+table.blueTable td, table.blueTable th {
+  border-bottom: 1px solid $color-table;
+  border-top: 1px solid $color-table;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 14px;
+  color: $color-table;
+  padding: 0.5rem 1.5rem;
+}
+table.blueTable tr:nth-child(even) {
+  background: $color-background;
+}
+table.blueTable thead {
+  background: $color-background;
+  border-bottom: 1px solid $color-table;
+}
+table.blueTable thead th {
+  font-size: 14px;
+  font-weight: bold;
+  color: #5B605F;
+  text-align: left;
+  border-left: 0 solid $color-background;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+
+.table___header {
+  color: $color-accent;
+  font-weight: bold;
+  text-align: center;
+  background-color: $color-background;
+  padding: 0.5rem;
+}
+
+.down_wrapper {
+  margin-top: 2rem;
+  border: 2px dotted $color-table;
+  padding: 0 2rem;
+  background: $color-background;
+  min-width: 830px;
+}
+
+.table___nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: $color-accent;
+  padding-top: 1rem;
+}

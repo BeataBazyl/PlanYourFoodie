@@ -1,0 +1,159 @@
+@import "../settings/colors";
+@import "../../fonts/fonts";
+
+.header_app {
+  display: flex;
+  background-color: $color-header;
+  width: 100vw;
+  height: 20vh;
+}
+
+h1 span {
+  color: $color-accent;
+  margin-left: 0.7rem;
+}
+
+
+.user_name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user_name div {
+  color: $color-white;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.user_icon {
+  opacity: 50%;
+  margin-left: 2rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.user_name div {
+  color: $color-white;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.user_icon {
+  opacity: 50%;
+  margin-left: 2rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.aside_app {
+  background-color: $color-nav;
+  width: 20vw;
+}
+
+.btn_app {
+  position: relative;
+  width: 85%;
+  height: 5rem;
+  padding: 0 1rem 0 2rem;
+  color: $color-white;
+  background-color: transparent;
+  border-left: 0.4rem solid $color-nav;
+  border-bottom: 0 none $color-nav;
+  border-right: 0 none $color-nav;
+  border-top: 0 none $color-nav;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+
+.btn_app:active, .btn_app:hover {
+  border-left-color: $color-accent;
+  border-left-width: 0.5rem;
+  border-left-style: solid;
+  transition: 0.33s ease;
+  font-weight: 700;
+}
+
+
+.btn_app:hover::after {
+  content:'';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-top: 0.2rem solid $color-accent;
+  border-right: 0.2rem solid $color-accent;
+  transform: translate(85px) rotate(45deg);
+  transition: 0.33s ease;
+  margin-top: 0.25rem;
+}
+
+.dashboard_main_section {
+  width: 80vw;
+  background: url("../assets/app/backgroundApp.png");
+}
+
+.app_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-background;
+  border: 2px dotted $color-table;
+  font-family: $font-text;
+  color: $color-nav;
+  margin: 2rem;
+  font-weight: 600;
+  height: 80vh;
+  text-align: center;
+}
+
+.app_form h1 {
+  font-size: 2.4rem;
+  margin: 1rem auto;
+}
+
+.app_form h2 {
+  font-size: 1.8em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app_input {
+  font-size: 1rem;
+  margin: 2rem auto;
+  min-width: 25%;
+  height: 45px;
+  text-align: left;
+  font-weight: lighter;
+  padding-left: 0.5rem;
+}
+
+.btn_form {
+  min-width: 15%;
+  min-height: 45px;
+  color: $color-white;
+  background-color: $color-accent;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+}
+
+.btn_form:active {
+  color: $color-header;
+}
+
+.form_text {
+  font-size: 1.6em;
+  font-weight: 600;
+  margin: 1rem auto;
+  width: 42%;
+  text-align: center;
+}

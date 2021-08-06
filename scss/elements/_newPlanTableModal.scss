@@ -1,0 +1,51 @@
+@import "../settings/colors";
+
+table.NewPlanTable {
+  border: 0 solid #A1A194;
+  background-color: #FFFFFA;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.NewPlanTable td, table.NewPlanTable th {
+  border-top: 1px solid #AAAAAA;
+  border-bottom: 1px solid #AAAAAA;
+  padding: 1rem 0.2rem;
+}
+table.NewPlanTable tbody td {
+  font-size: 14px;
+}
+table.NewPlanTable thead {
+  background: #FFFFFA;
+  border-bottom: 1px solid #A1A194;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+table.NewPlanTable thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: $color-nav;
+  text-align: center;
+}
+
+
+table.NewPlanTable thead th:first-of-type {
+  border-top: none;
+}
+
+
+table.NewPlanTable tfoot td {
+  font-size: 14px;
+}
+
+.new_plan_table {
+  margin: 2rem 0.5rem;
+}
+
+td:nth-child(1) {
+  text-transform: uppercase;
+  color: $color-nav;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
