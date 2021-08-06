@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Zaplanuj Jedzonko</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b282f36c60.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+<header>
+  <h1 class="logo">Zaplanuj <span class="logo__color">Jedzonko</span></h1>
+  <nav>
+    <ul>
+      <li><a href="app.html">Zaplanuj posiłki!</a></li>
+      <li><a href="#features">Dlaczego warto?</a></li>
+      <li><a href="#author">O mnie</a></li>
+      <li><a href="#footer">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport">
+      <li id="carousel__slide1"
+          tabindex="0"
+          class="carousel__slide">
+        <img src="assets/carousel/pic1.jpg" alt="cooking" width="100%" height="100%">
+        <div class="carousel__snapper">
+          <a href="#carousel__slide4"
+             class="carousel__prev">Go to last slide</a>
+          <a href="#carousel__slide2"
+             class="carousel__next">Go to next slide</a>
+        </div>
+      </li>
+      <li id="carousel__slide2"
+          tabindex="0"
+          class="carousel__slide">
+        <img src="assets/carousel/pic2.jpg" alt="cooking" width="100%" height="100%">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide1"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide3"
+           class="carousel__next">Go to next slide</a>
+      </li>
+      <li id="carousel__slide3"
+          tabindex="0"
+          class="carousel__slide">
+        <img src="assets/carousel/pic3.jpg" alt="cooking" width="100%" height="100%">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide2"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide4"
+           class="carousel__next">Go to next slide</a>
+      </li>
+      <li id="carousel__slide4"
+          tabindex="0"
+          class="carousel__slide">
+        <img src="assets/carousel/pic4.jpg" alt="cooking" width="100%" height="100%">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide3"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide1"
+           class="carousel__next">Go to first slide</a>
+      </li>
+    </ol>
+    <aside class="carousel__navigation">
+      <ol class="carousel__navigation-list">
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide1"
+             class="carousel__navigation-button"></a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide2"
+             class="carousel__navigation-button"></a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide3"
+             class="carousel__navigation-button"></a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide4"
+             class="carousel__navigation-button"></a>
+        </li>
+      </ol>
+    </aside>
+  </section>
+
+  <section class="cta" id="cta">
+      <!-- CTA + button -->
+      <div class="cta_text">
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <button class="cta_btn btn" id="cta_btn btn"><a href="app.html">Lorem ipsum</a></button>
+  </section>
+  <section class="features" id="features">
+    <!-- features -->
+    <div class="col_1">
+      <img class="img" src="assets/check-solid.svg" alt="check"/>
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col_2">
+      <img class="img" src="assets/clock-regular.svg" alt="clock"/>
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col_3">
+      <img class="img" src="assets/list-solid.svg" alt="list"/>
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </section>
+  <section class="newsletter_form" id="newsletter_form">
+    <!-- newsletter -->
+    <h3>Lorem ipsum dolor sit amet</h3>
+    <div>
+      <input type="text">
+      <button class=".btn .newsletter_btn">Lorem</button>
+      </input>
+    </div>
+  </section>
+  <section class="author" id="author">
+    <!-- aobut me -->
+    <img src="assets/author.jpg" alt="zdjęcie autora poradnika" />
+    <div class="author_about">
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </section>
+  <section>
+    <!-- three columns -->
+  </section>
+
+  <footer id="footer" class="footer__cell">
+    <div class="footer__info">
+      <div class="footer__text">
+        <h3>Lorem Ipsum Dolor</h3>
+        <p>Aenean porttitor justo eu est rutrum, vel bibendum sem viverra. Etiam placerat bibendum libero, sed
+          tincidunt purus egestas ut. Fusce porta auctor aliquam.</p>
+      </div>
+      <div class="footer__list">
+        <h3>Lorem Ipsum Dolor</h3>
+        <ul>
+          <li class="list__item">Aenean porttitor justo</li>
+          <li class="list__item">vel bibendum sem viverra</li>
+          <li class="list__item"> Phasellus condimentum ultricies</li>
+          <li class="list__item">Fusce porta auctor</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Lorem Ipsum Dolor</h3>
+        <div class="footer__form">
+          <input class="footer__input"><button class="btn footer__button">Lorem</button>
+        </div>
+        <div class="footer__icons">
+          <a href="" class="facebook"><span class="fab fa-facebook-square fa-2x" style="color: #fff"></span></a>
+          <a href="" class="twitter"><span class="fab fa-twitter-square fa-2x" style="color: #fff"></span></a>
+          <a href="" class="instagram"><span class="fab fa-instagram fa-2x" style="color: #fff"></span></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright <a href="" class="copyrigth__link">ZaplanujJedzonko.pl</a></p>
+    </div>
+  </footer>
+  <script src="js/index.js"></script>
+</main>
+</body>
+</html>
